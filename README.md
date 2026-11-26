@@ -1,7 +1,8 @@
 # Screenbomb
 
 The two public pages Apple requires for Screenbomb, an iPhone app. GitHub
-Pages serves them from the `main` branch:
+Pages serves them from the `gh-pages` branch, which is kept the same as
+`main`. Push both at once: `git push origin main main:gh-pages`.
 
 - `index.html`: the support page, https://rbechtold69.github.io/screenbomb/
 - `privacy.html`: the privacy policy, https://rbechtold69.github.io/screenbomb/privacy.html
